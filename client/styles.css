@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+#head{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #83C5BE;
+}
+#complimentButton{
+    cursor: pointer;
+    height: 30px;
+    background-color: #006D77;
+    margin-top: 15px;
+}
+#fortuneButton{
+    cursor: pointer;
+    height: 30px;
+    background-color: #006D77;
+    margin-top: 15px;
+}
+#my-form{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    width: 10px;  
+}
+#submit-btn{
+    cursor: pointer;
+    background-color: #FFDDD2;
+    height: 3vh;
+    width: 18vh;
+}
+#random-submit-btn{
+    cursor: pointer;
+    background-color: #FFDDD2;
+    height: 3vh;
+    width: 18vh;
+}
+#std-input{
+    width:18vh;
+}
+#std-input2{
+    width:18vh;
+}
+#std-input3{
+    width:18vh;
+}
+#body{
+    height:fit-content;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle, #566246 1px, rgba(0, 0, 0, 0) 1px);
+}
+#container-Usr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-items: start;
+    align-items: end;
+}
+p1{
+    border: dashed #566246 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 20vh;
+    height: 10vh;
+    color: black;
+}
+h1{
+    color: #566246;
+    font-size:x-large;
+    font-weight: 1000;
+}
+#getUsers{
+    cursor: pointer;
+    background-color: #FFDDD2;
+    margin: 20px;
+    margin-right: 14px;
+    height: 3vh;
+    width: 18vh;
+}
+#reIndex{
+    cursor: pointer;
+    background-color: #FFDDD2;
+    margin: 20px;
+    margin-left: 0px;
+    height: 3vh;
+    width: 18vh;
+}
+h2{
+    text-align: center;
+    width: 20vh;
+    height: 20vh;
+    color: #E29578;
+    border: black solid 2px;
+    background-color: #83C5BE;
+    margin-left: 20px;
+
+}
+#submit-btn2{
+    cursor: pointer;
+    background-color: #FFDDD2;
+    height: 3vh;
+    width: 18vh;
+}
