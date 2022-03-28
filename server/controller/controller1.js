@@ -53,6 +53,10 @@ module.exports = {
       },
       addUser: (req,res) => {
           const {userName,favoritePet} = req.body
+          if((userName == "") || (favoritePet == "")){
+              res.status(400).send(users)
+              return
+          }
           const newUser = {
               id:globleID,
               name: userName,

@@ -54,7 +54,10 @@ const addNewUser = () => {
         printUsers(res.data)
         // console.log(res.data)
     })
-    .catch((err) => console.log(err))
+    .catch((err) => {
+        console.log(err)
+        alert("Empty input field")
+    })
 }
 const changeIndex = () => {
     const index = userInput3.value
